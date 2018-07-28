@@ -8,7 +8,7 @@
 ###Getting Started
 
 Clone the directory
-`git clone https://github.com/braden-preston/electron-file2html`
+`git clone https://github.com/Braden-Preston/electron-file2html`
 
 Navigate to Directory
 `cd electron-file2html`
