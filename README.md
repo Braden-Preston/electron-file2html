@@ -8,9 +8,13 @@
 ###Getting Started
 
 `git clone https://github.com/Braden-Preston/electron-file2html`
+ 
 `cd electron-file2html`
+ 
 `npm install`
+ 
 `npm start`
+ 
 
 ###Edit the Module
 
