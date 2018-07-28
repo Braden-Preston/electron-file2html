@@ -5,7 +5,7 @@
 [Node](https://www.npmjs.com/package/file2html)
 [GitHub](https://github.com/file2html/file2htmll)
 
-###Getting Started
+##Getting Started
 
 `git clone https://github.com/Braden-Preston/electron-file2html`
  
@@ -16,7 +16,7 @@
 `npm start`
  
 
-###Edit the Module
+##Edit the Module
 
 The default code does not work (may be user error). You must replace code in `npm-modules/file2html/index.js` to fix the issue. Here it is:
 
@@ -37,7 +37,7 @@ The default code does not work (may be user error). You must replace code in `np
 
 2.) Even if #1 checks out, **.testFileMimeType()** is still being called against a [Reader] class. The way it is currently set up, the class constructor is one level lower than it should be. That is why testing the mimeType does not work, because it is trying to access a constructors method, while it is searching one level too high in the object. By setting it to reader[i].default, you are going to be accessing the default constructor, which contains the **.testFileMimeType()** function.
 
-###Example Setup
+##Example Setup
 
 After fixing the module, make sure the rest of the code is as follows.
 
