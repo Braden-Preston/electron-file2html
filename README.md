@@ -7,16 +7,9 @@
 
 ###Getting Started
 
-Clone the directory
 `git clone https://github.com/Braden-Preston/electron-file2html`
-
-Navigate to Directory
 `cd electron-file2html`
-
-Install dependancy packages (creates /node_modules & package-lock.json)
 `npm install`
-
-Start the App!
 `npm start`
 
 ###Edit the Module
